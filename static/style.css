@@ -1,0 +1,19 @@
+h3 {
+  font-family: Consolas;
+}
+
+#navbar {
+  width: 60%;
+}
+
+#logo:hover, a {
+  cursor: pointer;
+}
+
+.team-page {
+  margin: 100px 0px;
+}
+
+#hashtag, #button-addon2 {
+  border-width: 3px !important;
+}
