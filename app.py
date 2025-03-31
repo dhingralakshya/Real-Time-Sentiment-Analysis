@@ -10,6 +10,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
+nltk.download('vader_lexicon')
+
 app.config["MONGO_URI"] = os.getenv("MONGO_DB_URL")
 mongo = PyMongo(app)
 
